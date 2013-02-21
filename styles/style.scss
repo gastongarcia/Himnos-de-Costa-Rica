@@ -1,0 +1,38 @@
+@font-face {
+    font-family: 'GothicUltra';
+    src: url('/fonts/gothic_ultra_ot-webfont.eot');
+    src: url('/fonts/gothic_ultra_ot-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/gothic_ultra_ot-webfont.woff') format('woff'),
+         url('/fonts/gothic_ultra_ot-webfont.ttf') format('truetype'),
+         url('/fonts/gothic_ultra_ot-webfont.svg#GothicUltraOTRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+$rojo : #c83927;
+$gris_oscuro: #333;
+$gris_claro: #efefef;
+
+
+.bar-title{
+	border-top:1px solid $gris_oscuro;
+	border-bottom:1px solid $gris_oscuro;
+	background:$gris_claro;
+}
+
+h1.title{
+	font-family:"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: 300 !important;
+	font-size:18px !important;
+	color:$gris_oscuro !important;
+	text-shadow:none !important;
+}
+.himno{
+    margin:2em;
+    p{
+        margin:0.5em;
+        line-height: 1.3em;
+
+    }
+}
